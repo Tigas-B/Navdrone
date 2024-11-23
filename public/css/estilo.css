@@ -1,0 +1,14 @@
+body{
+    max-width: 1600px;
+    margin: auto;
+}
+main img{
+    border-radius: 50%;
+}
+main div.etiqueta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div.etiqueta p{
+}
