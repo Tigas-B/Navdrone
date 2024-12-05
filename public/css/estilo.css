@@ -2,13 +2,37 @@ body{
     max-width: 1600px;
     margin: auto;
 }
-main img{
-    border-radius: 50%;
+header .carousel img{
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
 }
-main div.etiqueta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+main .texto{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    
 }
-main div.etiqueta p{
+main .personalizadas{
+    background-color: #e7e7e7;
+}
+main .matterport{
+    background-color: #a4d6ed;
+}
+main .street{
+    
+}
+main .videos{
+    background-color: #090909;
+}
+main .fotografia{
+    background-color: #595959;
+}
+main .producao{
+    
+}
+
+footer img{
+    width: 40px;
+    height: auto;
 }
