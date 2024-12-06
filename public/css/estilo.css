@@ -16,6 +16,11 @@ main .texto{
 main .personalizadas{
     background-color: #e7e7e7;
 }
+main .servicos img{
+    width: 450px;
+    height: 250px;
+
+}
 main .matterport{
     background-color: #a4d6ed;
 }
@@ -27,6 +32,7 @@ main .videos{
 }
 main .fotografia{
     background-color: #595959;
+    
 }
 main .producao{
     
