@@ -19,7 +19,6 @@ main .personalizadas{
 main .servicos img{
     width: 450px;
     height: 250px;
-
 }
 main .matterport{
     background-color: #a4d6ed;
@@ -32,13 +31,52 @@ main .videos{
 }
 main .fotografia{
     background-color: #595959;
-    
 }
-main .producao{
-    
+main button{
+    border-radius: 5px;
+    border: #006E6E;
+    padding: 5px 10px;
+}
+.texto-botoes{
+    background-color: #006E6E;
+    color: white;
+}
+footer img{
+    width: 30px;
+    height: auto;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer i{
+    font-size: 40px;
+    color: white;
+}
+footer p{
+    font-size: 20px;
 }
 
-footer img{
-    width: 40px;
-    height: auto;
+/* Breakpoint XL */
+@media all and (width < 1200px) {
+    main .servicos img{
+        width: 70%;
+        height: 70%;
+    }
+    main .fotografia img{
+        width: 80%;
+        height: 90%;
+    }
+}
+
+/* Breakpoint XL */
+@media all and (width < 768px) {
+    .texto-botoes{font-size: 13px;}
+}
+/* Breakpoint SM */
+@media all and (width < 576px) {
+
+    h3{font-size: 16px;}
+    p, span{font-size: 13px;}
+
 }
