@@ -1,0 +1,112 @@
+/* Login Page */
+body.login_page{
+    height: 100vh;
+    padding-top: 100px;
+}
+.login{
+    height: fit-content;
+    border: 2px solid  #088587;
+    border-radius: 30px;
+}
+.login input{margin: 20px 0px;}
+.login input[type=submit]{
+    border: transparent;
+    border-radius: 10px;
+    background-color: #088587;
+    color: white;
+    padding: 10px;
+}
+
+/* Tables */
+table{
+    display: flex;
+    justify-content: center;
+}
+th, td{padding: 10px;}
+td{height: 200px;}
+td.large{width: 600px !important;}
+td.semi-large{width: 500px !important;}
+select{width: 75% !important;}
+
+/* FORMS */
+label{
+    font-family: "Raleway Medium";
+    font-size: 18px;
+    display: inline-block;
+    width: 150px;
+}
+
+main{
+    margin: auto;
+    max-width: 1300px;
+}
+
+textarea{
+    resize: none !important;
+    border: none;
+}
+/* Home Page */
+.backoffice header, .backoffice footer{background-color:#088587}
+.backoffice .navbar-brand{
+    font-family: "Raleway SemiBold";
+    font-size: 25px;
+    margin: 0px;
+    margin-right: 20px;
+}
+.backoffice header a{font-size: 18px;}
+.backoffice header a:not(.navbar-brand){border-bottom: 3px solid transparent;}
+.backoffice header a:not(.navbar-brand):hover, .backoffice header a:not(.navbar-brand).active{border-bottom: 3px solid white;}
+.background{background-color: rgba(0, 0, 0, 0.662);}
+.imagens img{
+    width: 300px;
+    height: 200px;
+}
+
+/* Portfolio */
+.portfolio *{font-family: "Raleway Medium";}
+input.green{width: auto !important;}
+.green{
+    border: 2px solid #088587;
+    background-color: transparent;
+    color: #088587;
+    margin: 20px 0px;
+}
+.green:hover{
+    background-color: #088587;
+    color: white;
+}
+button.novo, .green{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+button.novo{
+    border: 2px solid transparent;
+    background-color: #088587;
+    color: white;
+}
+button.novo:hover{
+    border: 2px solid #088587;
+    background-color: transparent;
+    color: #088587;
+}
+.btn:not(.btn-secondary){
+    width: auto;
+    height: 38px;
+    text-align: center;
+    padding: 6px 8px !important;
+}
+.borda table textarea{width: 100% !important;}
+
+/* Servicos */
+.servicos img{width: 50%;}
+
+/* Fotos Novas */
+.fotos input[type=text]{width: 500px;}
+
+/* Contactos */
+.contactos label{width: 120px!important;}
+input:not(.btn, input[type=color]){width: 400px;}
+
+.servicos-form div{width: 100%;}
+.servicos-form div input{width: 500px;}
